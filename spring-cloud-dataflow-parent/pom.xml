@@ -23,7 +23,7 @@
 
 		<spring-cloud-task.version>2.4.5</spring-cloud-task.version>
 
-		<spring-cloud-common-security-config.version>${dataflow.version}</spring-cloud-common-security-config.version>
+		<spring-cloud-common-security-config.version>2.11.3</spring-cloud-common-security-config.version>
 
 		<jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
 		<sonar-maven-plugin.version>3.0.2</sonar-maven-plugin.version>
