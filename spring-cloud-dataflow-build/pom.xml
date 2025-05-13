@@ -46,7 +46,7 @@
 		<maven-eclipse-plugin.version>2.10</maven-eclipse-plugin.version>
 		<!-- for backwards compatibility, use maven-checkstyle-plugin.version -->
 		<checkstyle.version>${maven-checkstyle-plugin.version}</checkstyle.version>
-		<puppycrawl-tools-checkstyle.version>8.29</puppycrawl-tools-checkstyle.version>
+		<puppycrawl-tools-checkstyle.version>10.12.1</puppycrawl-tools-checkstyle.version>
 		<spring-javaformat.version>0.0.9</spring-javaformat.version>
 		<maven-failsafe-plugin.version>3.0.0</maven-failsafe-plugin.version>
 		<maven-javadoc-plugin.version>3.4.1</maven-javadoc-plugin.version>
@@ -89,7 +89,7 @@
 		<configprops.inclusionPattern>.*</configprops.inclusionPattern>
 		<maven-dependency-plugin-for-docs.phase>generate-resources</maven-dependency-plugin-for-docs.phase>
 		<maven-dependency-plugin-for-guides.phase>generate-resources</maven-dependency-plugin-for-guides.phase>
-		<groups />
+		<groups/>
 		<excludedGroups>slow,docker</excludedGroups>
 	</properties>
 	<dependencyManagement>
@@ -408,7 +408,7 @@
 					<configuration>
 						<fail>false</fail>
 						<rules>
-							<dependencyConvergence />
+							<dependencyConvergence/>
 						</rules>
 					</configuration>
 				</plugin>
@@ -436,7 +436,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
